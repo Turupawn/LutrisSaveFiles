@@ -1,0 +1,11 @@
+{"games": [
+"Supertux 2": {
+    ""
+    "saves": "$CONFIG_DIR/.supertux2/**/*.stsg",
+    "config":"$CONFIG_DIR/.SomeGame/config"
+},
+"Zelda: Mistery of solarus DX": {
+    "saves": "$CONFIG_DIR/.SomeGame/**/*.dat",
+    "config":"$CONFIG_DIR/.SomeGame/config.ini"
+}
+]}
