@@ -1,11 +1,10 @@
 {"games": [
 "Supertux 2": {
-    ""
-    "saves": "$CONFIG_DIR/.supertux2/**/*.stsg",
-    "config":"$CONFIG_DIR/.SomeGame/config"
+    "saves": "$XDG_CONFIG_HOME/.supertux2/**/*.stsg",
+    "config":"$XDG_CONFIG_HOME/.SomeGame/config"
 },
 "Zelda: Mistery of solarus DX": {
-    "saves": "$CONFIG_DIR/.SomeGame/**/*.dat",
-    "config":"$CONFIG_DIR/.SomeGame/config.ini"
+    "saves": "$XDG_CONFIG_HOME/.SomeGame/**/*.dat",
+    "config":"$XDG_CONFIG_HOME/.SomeGame/config.ini"
 }
 ]}
