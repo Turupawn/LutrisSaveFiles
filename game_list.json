@@ -17,11 +17,18 @@
     }
   },
   {
-    "name": "Warsow",
+    "name": "Warsow 2.1",
     "files":
     {
       "config": "$XDG_DATA_HOME/warsow-2.1/basewsw/*.cfg",
       "screenshots": "$XDG_DATA_HOME/warsow-2.1/basewsw/screenshots/*.jpg"
+    }
+  },
+  {
+    "name": "Manaplus",
+    "files":
+    {
+      "config": "$XDG_CONFIG_HOME/mana/mana/**/*.xml"
     }
   },
   {
