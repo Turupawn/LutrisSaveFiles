@@ -1,10 +1,35 @@
-{"games": [
-"Supertux 2": {
-    "saves": "$XDG_CONFIG_HOME/.supertux2/**/*.stsg",
-    "config":"$XDG_CONFIG_HOME/.SomeGame/config"
-},
-"Zelda: Mistery of solarus DX": {
-    "saves": "$XDG_CONFIG_HOME/.SomeGame/**/*.dat",
-    "config":"$XDG_CONFIG_HOME/.SomeGame/config.ini"
+{
+  "games": [
+  {
+    "name": "Supertux 2",
+    "files":
+      {
+        "saves": "$HOME/.supertux2/**/*.stsg",
+        "config": "$HOME/.supertux2/config"
+      }
+  },
+  {
+    "name": "Zelda: Mistery of solarus DX",
+    "files":
+    {
+      "saves": "$HOME/.solarus/zsdx/**/*.dat",
+      "config": "$HOME/.solarus/zsdx/config.ini"
+    }
+  },
+  {
+    "name": "Warsow",
+    "files":
+    {
+      "config": "$XDG_DATA_HOME/warsow-2.1/basewsw/*.cfg",
+      "screenshots": "$XDG_DATA_HOME/warsow-2.1/basewsw/screenshots/*.jpg"
+    }
+  },
+  {
+    "name": "OpenRA",
+    "files":
+    {
+      "config": "$HOME/.openra/settings.yaml",
+      "replays": "$HOME/.openra/**/*.orarep"
+    }
+  }]
 }
-]}
