@@ -32,6 +32,16 @@
     }
   },
   {
+    "name": "0AD 0.0.21",
+    "files":
+    {
+      "config": ["$XDG_CONFIG_HOME/0ad/config/*.cfg","$XDG_CONFIG_HOME/0ad/config/*.json"],
+      "saves": "$XDG_DATA_HOME/0ad/saves/*.0adsave",
+      "screenshots": "$XDG_DATA_HOME/0ad/screenshots/*.png",
+      "replays": ["$XDG_DATA_HOME/0ad/replays/**/*.txt","$XDG_DATA_HOME/0ad/replays/**/*.json"]
+    }
+  },
+  {
     "name": "OpenRA",
     "files":
     {
