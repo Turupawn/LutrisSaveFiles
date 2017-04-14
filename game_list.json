@@ -42,6 +42,14 @@
     }
   },
   {
+    "name": "The Battle for Wesnoth 1.10.7",
+    "files":
+    {
+      "config": "$XDG_CONFIG_HOME/wesnoth/preferences",
+      "saves": "$XDG_DATA_HOME/wesnoth/1.10/saves/*.gz"
+    }
+  },
+  {
     "name": "OpenRA",
     "files":
     {
