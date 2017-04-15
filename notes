@@ -1,0 +1,20 @@
+1. So far the data files types found are:
+* config
+* saves
+* replays
+* screenshots
+
+2. Sometimes multiple file extentions are needed for a single file category.
+In such case, an array of extensions is added. See 0AD as example.
+
+3. Sometimes multiple file categories are stored with the same extension.
+I'm still not sure what to do in that case. For example, The Battle for
+Wesnoth stores both replays and saves under the same extension .gz
+
+4. I wasn't able to install the following games directly from Lutris:
+* Warsow
+* 0AD
+* Wesnoth
+I installed the newest versions from the official sites.
+
+5. I made a python script to check if the paths are correct: check.py
