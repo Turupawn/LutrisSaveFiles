@@ -12,7 +12,7 @@
     "name": "Zelda: Mistery of solarus DX",
     "files":
     {
-      "saves": "$HOME/.solarus/zsdx/**/*.dat",
+      "saves": "$HOME/.solarus/zsdx/*.dat",
       "config": "$HOME/.solarus/zsdx/config.ini"
     }
   },
